@@ -1,5 +1,4 @@
 ---
-layout: pages
 title: Research
 permalink: /research.html
 ---
