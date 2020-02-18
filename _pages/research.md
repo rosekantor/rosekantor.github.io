@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Research
-author_profile: true
 permalink: /research.html
-
 ---
+
 Advanced treated water in distribution
 ------
 Ongoing [NSF-CBET](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1804118) focused on understanding potential impacts of highly treated water on the microbial communities in drinking water distribution systems.
