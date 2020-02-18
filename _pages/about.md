@@ -11,8 +11,6 @@ I am a microbial ecologist working with water engineers to understand the effect
 
 I value reproducibility, teamwork, and community in research. I enjoy consulting, collaborating with stakeholders, mentoring, and teaching.
 
-**Join [drinking-water-microbiome slack](https://drinkingwater-5jh2218.slack.com)!**
-
 Education
 ------
 **Ph.D.** in Microbiology (Banfield Lab), University of California, Berkeley (2016)  
