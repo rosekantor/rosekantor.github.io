@@ -18,7 +18,7 @@ Postdoctoral researcher in the lab of [Prof. Kara Nelson](https://ce.berkeley.ed
 
 Education
 ------
-**Ph.D.** in Microbiology (Banfield Lab), University of California, Berkeley (2016)
+**Ph.D.** in Microbiology (Banfield Lab), University of California, Berkeley (2016)  
 **B.A.** in Biology, Carleton College (2010)
 
 
