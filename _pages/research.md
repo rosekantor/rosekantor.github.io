@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Research
+author_profile: true
+permalink: /research
 ---
 Advanced treated water in distribution
 ------
