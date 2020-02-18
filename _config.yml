@@ -214,7 +214,7 @@ defaults:
   # _presentations
   - scope:
       path: ""
-      type: portfolio
+      type: presentations
     values:
       layout: single
       author_profile: true
