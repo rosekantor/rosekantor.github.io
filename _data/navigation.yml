@@ -10,7 +10,7 @@ main:
     url: /publications/
 
   - title: "Presentations"
-    url: /presentations/    
+    url: /presentations.html    
     
-  - title: "CV"
-    url: /cv/
+  #- title: "CV"
+  #  url: /cv/
