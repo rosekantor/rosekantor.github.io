@@ -8,11 +8,10 @@ redirect_from:
   - /about.html
 ---
 I am a microbial ecologist working with water engineers to understand the effects of advanced treatment and distribution on the drinking water microbiome.  I am interested in the broader application of high-throughput DNA sequencing analyses and big data in the water industry.  I want to help water professionals navigate these new tools for drinking water microbiology.  
-    I value reproducibility, teamwork, and community in research. I enjoy consulting, collaborating with stakeholders, mentoring, and teaching.
 
-Current
-------
-Postdoctoral researcher in the lab of [Prof. Kara Nelson](https://ce.berkeley.edu/people/faculty/nelson), University of California, Berkeley
+I value reproducibility, teamwork, and community in research. I enjoy consulting, collaborating with stakeholders, mentoring, and teaching.
+
+**Join [drinking-water-microbiome slack](https://drinkingwater-5jh2218.slack.com)!**
 
 Education
 ------
