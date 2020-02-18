@@ -12,7 +12,7 @@ CWEA Emerging issues in potable reuse workshop, Jan 2020 | [pdf](files/presentat
 **The Microbial World Within Water Reuse**  
 Carleton College Biology Department Seminar, Oct 2018 | [pdf](files/presentations/carleton_bio_seminar.pdf)  
 
-**Advanced methods for microbial analyses of drinking water**
+**Advanced methods for microbial analyses of drinking water**  
 CEE 210 (Pathogens) UC Berkeley guest lecture, March 2018 | [pdf](files/presentations/Pathogens_guest_lecture_031518.pdf)  
 
  **The limitations of common molecular techniques for water reuse microbiology**  
