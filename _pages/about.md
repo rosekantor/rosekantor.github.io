@@ -11,7 +11,7 @@ I am a microbial ecologist working with water engineers to understand the effect
 
 I value reproducibility, teamwork, and community in research. I enjoy consulting, collaborating with stakeholders, mentoring, and teaching.
 
-**Are you a researcher? Join the [drinking-water-microbiome slack!](https://join.slack.com/t/drinkingwater-5jh2218/shared_invite/enQtOTQ2OTM3NTQ3Mzc5LTc3ZmRlZDQ0YzhiNGYzZjBiNjI4OTQ0Y2FlOTJmNTAyN2RhY2YyZmFiMzlkY2UyNjJhNzgxMzIyNzk2Yzc3NmQ)** See my post about the purpose of this slack [here](/blog/2020-01-19-slack-for-drinking-water-microbiome).
+**Are you a researcher? Join the [drinking-water-omics slack!](https://join.slack.com/t/drinking-water-omics/shared_invite/enQtOTQ2OTM3NTQ3Mzc5LTc3ZmRlZDQ0YzhiNGYzZjBiNjI4OTQ0Y2FlOTJmNTAyN2RhY2YyZmFiMzlkY2UyNjJhNzgxMzIyNzk2Yzc3NmQ)** See my post about the purpose of this slack [here](/blog/2020-01-19-slack-for-drinking-water-microbiome).
 
 Education
 ------
