@@ -1,7 +1,7 @@
 ---
 title: 'Slack for drinking water microbiome research'
 date: 2020-01-19
-permalink: 
+permalink: /blog/2020-01-19-slack-for-drinking-water-microbiome
 ---
 
 ## Summary
