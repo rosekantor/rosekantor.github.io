@@ -32,6 +32,7 @@ The same year our study came out, some good papers on contamination in microbiom
 
 ## The second try: eyes on the data
 In our next study, we filtered larger volumes (using dead end ultrafiltration and PEG flocculation), we were even more careful with sample handling, and we included more controls (filter/flocculation negative controls, extraction positive and negative controls, amplification positive and negative controls).  Our biggest challenge was that this time, we wanted to use the same DNA extraction protocol for all samples, including high-biomass tertiary wastewater and low-biomass RO-permeate.  We tested 3 different kits with and without multiple modifications, we consulted with technical support from the kit manufacturers, and optimized our method. To prevent contamination, we separated pre- and post-PCR steps spatially and temporally, we batched extractions by low vs. high biomass and sample site, and we got brand new multichannels that didn’t require us to bang tips on and pull tips off.  
+
 In spite of this, the golden rule of contamination still holds. Low biomass samples have high contamination.  While we filtered a lot more water this time (up to 4000 L of RO permeate), we could use 200 ul of a 3 mL flocculation pellet per DNA extraction, resulting in low gDNA concentrations. In the data, there are 185 ASVs in at least one sample AND one negative control.  Below, I’ll show analysis for some of the most abundant of these ASVs.
 
 Controls we have:
