@@ -11,10 +11,11 @@ Decontaminating low biomass microbiome data is crucial, especially in the drinki
 - Because I felt like I was mostly alone with this and maybe you too are struggling with some contaminated data right now (though I hope not!).
 - To show my mistakes. It is okay to make mistakes in science, just don’t keep them to yourself.
 - Distraction from COVID-19, the ultimate contaminant of today.
+
 **For a limited collection of resources on this topic, skip to the References section at the end.**
 
 ## Why is decontamination essential (and hard) with low biomass samples?
-The golden rule of systematic contamination in microbiome data is this: *The less DNA in the sample, the higher the fraction of total DNA that comes from contamination* (Salter et al. 2014). Said another way, in low biomass samples, the signal to noise ratio of sample to contaminants is low.  Sources of contamination in microbiome studies include 1) materials reagents and materials used to extract and amplify DNA, 2) the sampling and laboratory environments, and 3) other samples processed at the same time as low-biomass samples.
+The golden rule of systematic contamination in microbiome data is this: **The less DNA in the sample, the higher the fraction of total DNA that comes from contamination** (Salter et al. 2014). Said another way, in low biomass samples, the signal to noise ratio of sample to contaminants is low.  Sources of contamination in microbiome studies include 1) materials reagents and materials used to extract and amplify DNA, 2) the sampling and laboratory environments, and 3) other samples processed at the same time as low-biomass samples.
 
 I study highly purified water, which has very low cell counts (as low as 100 cells / mL). Even with good collection methods, low biomass is still an issue.  To make matters more complicated, the water used to make reagents also undergoes purification, meaning it might contain similar microorganisms to the ones I am trying to study.  This means decontamination is critical.
 
@@ -50,20 +51,22 @@ Figure 1. Looking at the most abundant ASVs that are present in at least one con
 ![Fig 2]({{ site.url }}/images/lysobacter_pos_control.png)
 Figure 2. Lysobacter ASV in positive controls. Heatmap made with Phyloseq.
 
-As with the first dataset, published methods for data decontamination failed to pick up all the major contaminants I knew were present by visual inspection (there is still plenty of room for new statistical methods in this field!).  My rigorous decontamination method with DESeq2 removed some important ASVs from high-biomass samples that had cross-contaminated into controls.  This happened because these ASVs were from tertiary wastewater, and weren’t present in enough of the other samples to be statistically significantly enriched in samples over controls.  To get around this, I opted to group samples by location and compare each group to the full set of controls, identifying ASVs that were significantly enriched in that sample location as “true” ASVs.  The full “true” set included all ASVs that were “true” in any sample type and ASVs not found in any control. 
+As with the first dataset, published methods for data decontamination failed to pick up all the major contaminants I knew were present by visual inspection (there is still plenty of room for new statistical methods in this field!).  My rigorous decontamination method with `DESeq2` removed some important ASVs from high-biomass samples that had cross-contaminated into controls.  This happened because these ASVs were from tertiary wastewater, and weren’t present in enough of the other samples to be statistically significantly enriched in samples over controls.  To get around this, I opted to group samples by location and compare each group to the full set of controls, identifying ASVs that were significantly enriched in that sample location as “true” ASVs.  The full “true” set included all ASVs that were “true” in any sample type and ASVs not found in any control. 
 
 ## Conclusion
 The decontamination process has underscored for me how important it is to have one’s eyes on the data, to play with the data, and to test both published and new methods on the data.  As with most sequencing-based bioinformatics, but especially with decontamination, there is no out-of-the box solution that will work for every dataset.  I think exploration and creativity are essential to science, even if we are sometimes taught that they are “unscientific”.  In publications, we only see the final results, but the process behind them is sometimes oversimplified.  The risk here is that labs taking up microbiome work for the first time will assume that the work is as easy as copying someone else’s methods.   Sharing what happens behind the scenes takes guts, and I hope we can encourage each other to do this more often. It is important for advancing our field.
 
 ## References
-Davis, N. M., Proctor, D. M., Holmes, S. P., Relman, D. A., & Callahan, B. J. (2018). Simple statistical identification and removal of contaminant sequences in marker-gene and metagenomics data. Microbiome, 6(1), 1–14. http://doi.org/10.1186/s40168-018-0605-2
+Davis, N. M., Proctor, D. M., Holmes, S. P., Relman, D. A., & Callahan, B. J. (2018). Simple statistical identification and removal of contaminant sequences in marker-gene and metagenomics data. Microbiome, 6(1), 1–14. <http://doi.org/10.1186/s40168-018-0605-2>
 
-Eisenhofer, R., Minich, J. J., Marotz, C., Cooper, A., Knight, R., & Weyrich, L. S. (2019). Contamination in Low Microbial Biomass Microbiome Studies: Issues and Recommendations. Trends in Microbiology, 27(2), 105–117. http://doi.org/10.1016/j.tim.2018.11.003
+Eisenhofer, R., Minich, J. J., Marotz, C., Cooper, A., Knight, R., & Weyrich, L. S. (2019). Contamination in Low Microbial Biomass Microbiome Studies: Issues and Recommendations. Trends in Microbiology, 27(2), 105–117. <http://doi.org/10.1016/j.tim.2018.11.003>
 
-de Goffau, M. C., Lager, S., Salter, S. J., Wagner, J., Kronbichler, A., Charnock-Jones, D. S., et al. (2018). Recognizing the reagent microbiome. Nature Microbiology, 3(8), 851–853. http://doi.org/10.1038/s41564-018-0202-y
+de Goffau, M. C., Lager, S., Salter, S. J., Wagner, J., Kronbichler, A., Charnock-Jones, D. S., et al. (2018). Recognizing the reagent microbiome. Nature Microbiology, 3(8), 851–853. <http://doi.org/10.1038/s41564-018-0202-y>
 
-Karstens, L., Asquith, M., Davin, S., Fair, D., Gregory, W. T., Wolfe, A. J., et al. (2019). Controlling for Contaminants in Low-Biomass 16S rRNA Gene Sequencing Experiments. mSystems, 4(4), e00290–19. http://doi.org/10.1128/mSystems.00290-19
+Kantor, R. S., Miller, S. E., & Nelson, K. L. (2019). The Water Microbiome Through a Pilot Scale Advanced Treatment Facility for Direct Potable Reuse. Frontiers in Microbiology, 10, 993. <http://doi.org/10.3389/fmicb.2019.00993>
 
-Salter, S. J., Cox, M. J., Turek, E. M., Calus, S. T., Cookson, W. O., Moffatt, M. F., et al. (2014). Reagent and laboratory contamination can critically impact sequence-based microbiome analyses. Bmc Biology, 12(1). http://doi.org/10.1186/s12915-014-0087-z
+Karstens, L., Asquith, M., Davin, S., Fair, D., Gregory, W. T., Wolfe, A. J., et al. (2019). Controlling for Contaminants in Low-Biomass 16S rRNA Gene Sequencing Experiments. mSystems, 4(4), e00290–19. <http://doi.org/10.1128/mSystems.00290-19>
 
-Fierer, N., Henley, J., and Gebert, M. (2018). Garbage in, garbage out: Wrestling with contamination in microbial sequencing projects. http://fiererlab.org/2018/08/15/garbage-in-garbage-out-wrestling-with-contamination-in-microbial-sequencing-projects/
+Salter, S. J., Cox, M. J., Turek, E. M., Calus, S. T., Cookson, W. O., Moffatt, M. F., et al. (2014). Reagent and laboratory contamination can critically impact sequence-based microbiome analyses. Bmc Biology, 12(1). <http://doi.org/10.1186/s12915-014-0087-z>
+
+Fierer, N., Henley, J., and Gebert, M. (2018). Garbage in, garbage out: Wrestling with contamination in microbial sequencing projects. <http://fiererlab.org/2018/08/15/garbage-in-garbage-out-wrestling-with-contamination-in-microbial-sequencing-projects/>
