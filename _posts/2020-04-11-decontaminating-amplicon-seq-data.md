@@ -1,7 +1,7 @@
 ---
 title: 'Decontaminating amplicon sequencing data for the drinking water microbiome'
 date: 2020-04-11
-permalink: /blog/2020-04-11-decontaminating-amplicon-seq-data.md
+permalink: /blog/2020-04-11-decontaminating-amplicon-seq-data
 ---
 ## Summary
 Decontaminating low biomass microbiome data is crucial, especially in the drinking water microbiome field.  I think creativity and transparency in our approaches will be critical to approaching this ongoing challenge.  Below, I summarize my experiences analyzing contaminated amplicon data.  In a future post, I’ll focus on metagenomics.
