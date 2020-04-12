@@ -48,6 +48,7 @@ Third, the mock community has cross-contaminated into the field negative control
 
 ![Fig 1]({{ site.url }}/images/heatmap_controls_annotated.png)
 Figure 1. Looking at the most abundant ASVs that are present in at least one control and one sample. Heatmap made with Phyloseq.
+
 ![Fig 2]({{ site.url }}/images/lysobacter_pos_control.png)
 Figure 2. Lysobacter ASV in positive controls. Heatmap made with Phyloseq.
 
