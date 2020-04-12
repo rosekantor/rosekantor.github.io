@@ -45,9 +45,9 @@ Second, looking into the field negative controls, which include filtered-floccul
 
 Third, the mock community has cross-contaminated into the field negative controls (Fig. 1, gray), which suggests other sample cross-contamination may also have occurred (Fig. 1, green). Since we batched extractions by sample location instead of randomizing them, hopefully cross-location contamination is limited.
 
-![Fig 1](rosekantor.github.io/images/heatmap_controls_annotated.png)
+![Fig 1]({{ site.url }}/images/heatmap_controls_annotated.png)
 Figure 1. Looking at the most abundant ASVs that are present in at least one control and one sample. Heatmap made with Phyloseq.
-![Fig 2](rosekantor.github.io/images/lysobacter_pos_control.png)
+![Fig 2]({{ site.url }}/images/lysobacter_pos_control.png)
 Figure 2. Lysobacter ASV in positive controls. Heatmap made with Phyloseq.
 
 As with the first dataset, published methods for data decontamination failed to pick up all the major contaminants I knew were present by visual inspection (there is still plenty of room for new statistical methods in this field!).  My rigorous decontamination method with DESeq2 removed some important ASVs from high-biomass samples that had cross-contaminated into controls.  This happened because these ASVs were from tertiary wastewater, and weren’t present in enough of the other samples to be statistically significantly enriched in samples over controls.  To get around this, I opted to group samples by location and compare each group to the full set of controls, identifying ASVs that were significantly enriched in that sample location as “true” ASVs.  The full “true” set included all ASVs that were “true” in any sample type and ASVs not found in any control. 
