@@ -15,7 +15,7 @@ Decontaminating low biomass microbiome data is crucial, especially in the drinki
 **For a limited collection of resources on this topic, skip to the References section at the end.**
 
 ## Why is decontamination essential (and hard) with low biomass samples?
-The golden rule of systematic contamination in microbiome data is this: **The less DNA in the sample, the higher the fraction of total DNA that comes from contamination** (Salter et al. 2014). Said another way, in low biomass samples, the signal to noise ratio of sample to contaminants is low.  Sources of contamination in microbiome studies include 1) materials reagents and materials used to extract and amplify DNA, 2) the sampling and laboratory environments, and 3) other samples processed at the same time as low-biomass samples.
+The golden rule of systematic contamination in microbiome data is this: **The less DNA in the sample, the higher the fraction of total DNA that comes from contamination** (Salter et al. 2014). Said another way, in low biomass samples, the signal to noise ratio of sample to contaminants is low.  Sources of contamination in microbiome studies include 1) reagents and materials used to extract and amplify DNA, 2) the sampling and laboratory environments, and 3) other samples processed at the same time as low-biomass samples.
 
 I study highly purified water, which has very low cell counts (as low as 100 cells / mL). Even with good collection methods, low biomass is still an issue.  To make matters more complicated, the water used to make reagents also undergoes purification, meaning it might contain similar microorganisms to the ones I am trying to study.  This means decontamination is critical.
 
